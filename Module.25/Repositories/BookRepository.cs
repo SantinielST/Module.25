@@ -2,7 +2,10 @@
 using Module._25.Entities;
 
 namespace Module._25.Repositories;
-
+/// <summary>
+/// Репозиторий книги
+/// </summary>
+/// <param name="appContext"></param>
 public class BookRepository(AppContext appContext) : IBookRepository
 {
     private AppContext _appContext = appContext;

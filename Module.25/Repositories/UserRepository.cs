@@ -3,6 +3,11 @@ using Module._25.Entities;
 
 namespace Module._25.Repositories;
 
+
+/// <summary>
+/// Репозиторий пользователя
+/// </summary>
+/// <param name="appContext"></param>
 public class UserRepository(AppContext appContext) : IUserRepository
 {
     private AppContext _appContext = appContext;
